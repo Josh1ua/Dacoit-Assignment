@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <title>Document</title>
+</head>
+<body class="w-screen h-screen p-0 m-0 flex justify-center" style="font-family: 'Montserrat', sans-serif;">
+    <div class="w-screen sm:w-[375px] p-2">
+        <div class="pt-4 pb-4 font-semibold text-lg leading-6" style="font-family: 'Roboto', sans-serif;">
+            <h1 class="font-semibold text-[20px] leading-[23.44px]">Welcome Back</h1>
+        </div>
+        <form class="py-4">
+            <div class="pb-1">
+                <input type="email" placeholder="Email" class="bg-[#F1F1F1] rounded-lg w-full h-[50px] pl-[16px] text-[12px] font-semibold leading-[14.63px]" required>
+            </div><br/>
+            <div class="pb-1">
+                <input type="password" placeholder="Password" class="bg-[#F1F1F1] rounded-lg w-full h-[50px] pl-[16px] text-[12px] font-semibold leading-[14.63px]" required>
+            </div><br/>
+            
+            <div>
+                <a href="#" class="underline text-[#7F7F7F] text-[12px] font-medium leading-[14.63px]">Forgot your password?</a>
+            </div>
+            <a href="goals.html" class="mt-[250px] w-full h-[50px] bg-gradient-to-r from-[#95BEFF] to-[#7B91FF] flex justify-center items-center rounded-lg" onclick="window.location.href=this.href; return false;">
+                <button type="submit" class="text-base font-semibold text-white">Sign In</button>
+            </a>                  
+        </form>
+        
+        <div class="flex items-center pt-2">
+            <img src="images/Line 1.png" class="h-[1px] w-[147px]" alt="" srcset="">
+            <p class="px-2 text-[12px] font-medium leading-[14.63px]">Or</p>
+            <img src="images/Line 1.png" class="h-[1px] w-[150px]" srcset="">
+        </div>
+        <div class="flex justify-center gap-3 pt-2">
+            <div class="w-[44px] h-[44px] flex justify-center items-center border-[1px] border-[#7F7F7F] rounded-lg">
+                <img src="images/flat-color-icons_google.png" alt="" srcset="">
+            </div>
+            <div class="w-[44px] h-[44px] flex justify-center items-center border-[1px] border-[#7F7F7F] rounded-lg">
+                <img src="images/Vector.png" alt="" srcset="">
+            </div>
+        </div>
+        <div class="flex gap-1 justify-center pt-2">
+            <p class="text-[12px] font-medium leading-[14.63px]">Don't have an account?</p>
+            <a href="signup.html" class="underline text-[#9FB2FF] text-[12px] font-medium leading-[14.63px]">Create an account</a>
+        </div>
+    </div>
+    <script src="js/tailwind.js"></script>
+</body>
+</html>
